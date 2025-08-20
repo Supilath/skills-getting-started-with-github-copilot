@@ -48,6 +48,33 @@ section {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   width: 100%;
   max-width: 500px;
+
+.participants-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.participants-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 0;
+}
+
+.delete-btn {
+  background: none;
+  border: none;
+  color: #ff4444;
+  font-size: 1.2em;
+  cursor: pointer;
+  padding: 0 5px;
+  margin-left: 10px;
+  line-height: 1;
+}
+
+.delete-btn:hover {
+  color: #ff0000;
+}
 }
 
 section h3 {
